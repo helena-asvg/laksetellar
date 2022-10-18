@@ -7,7 +7,5 @@ def skrivLaks(antallLaks):
         else:
             print(i, "laksar")
         antallLaks = antallLaks-1
-
-
     
 skrivLaks(5)
