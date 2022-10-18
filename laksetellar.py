@@ -1,3 +1,5 @@
+spørLaks = int(input("Hvor mange laks?")
+)
 def skrivLaks(antallLaks):
     i=0
     while antallLaks > 0:
@@ -7,5 +9,5 @@ def skrivLaks(antallLaks):
         else:
             print(i, "laksar")
         antallLaks = antallLaks-1
-    
-skrivLaks(5)
+
+skrivLaks(spørLaks)
